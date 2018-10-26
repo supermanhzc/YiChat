@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    buildToolsVersion '28.0.2'
 
     defaultConfig {
         applicationId "com.htmessage.fanxinht"
@@ -16,7 +16,8 @@ android {
                 jniLibs.srcDir 'libs'
 
             }
-            instrumentTest.setRoot('tests')
+//            instrumentTest.setRoot('tests')
+            androidTest.setRoot('tests')
             debug.setRoot('build-types/debug')
             release.setRoot('build-types/release')
         }

@@ -4,8 +4,6 @@
     package="com.htmessage.fanxinht">
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="25"
         tools:overrideLibrary="com.htmessage.sdk|com.jrmf360.walletpaylib" />
 
     <!--AnyRTC相关-->
